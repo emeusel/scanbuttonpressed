@@ -1,0 +1,3 @@
+#!/bin/sh
+
+python ${0%.sh}.py "/srv/myserver/myuser/scans/pages" "/srv/myserver/myuser/scans/documents" 1 3 $1 $2
